@@ -8,15 +8,15 @@ source "https://rubygems.org"
 
 gem "bootsnap", require: false, platform: :mri
 
-gem "actionmailer", "~> 8.0.0"
-gem "actionpack", "~> 8.0.0"
+gem "actionmailer", "~> 8.0.3"
+gem "actionpack", "~> 8.0.3"
 gem "actionview", "~> 8.0.0"
 gem "activemodel", "~> 8.0.0"
 gem "activerecord", "~> 8.0.0"
 gem "activesupport", "~> 8.0.0"
-gem "railties", "~> 8.0.0"
+gem "railties", "~> 8.0.3"
 
-gem "propshaft"
+gem "propshaft", ">= 1.3.0"
 gem "json"
 
 # this will eventually be added to rails,
