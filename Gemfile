@@ -150,7 +150,7 @@ group :test, :development do
 
   gem "rswag-specs"
 
-  gem "annotaterb"
+  gem "annotaterb", ">= 4.20.0"
 
   gem "syntax_tree"
 
@@ -159,7 +159,7 @@ end
 
 group :development do
   gem "ruby-prof", require: false, platform: :mri
-  gem "bullet", require: !!ENV["BULLET"]
+  gem "bullet", ">= 8.1.0", require: !!ENV["BULLET"]
   gem "better_errors", platform: :mri, require: !!ENV["BETTER_ERRORS"]
   gem "binding_of_caller"
   gem "yaml-lint"
@@ -266,7 +266,7 @@ gem "csv", require: false
 
 # dependencies for the automation plugin
 gem "iso8601"
-gem "rrule"
+gem "rrule", ">= 0.7.0"
 
 group :migrations, optional: true do
   gem "extralite-bundle", require: "extralite"
@@ -298,7 +298,7 @@ gem "zendesk_api", require: false
 gem "stripe", require: false
 
 # for discourse-github
-gem "sawyer", require: false
+gem "sawyer", ">= 0.9.3", require: false
 gem "octokit", require: false
 
 # for discourse-ai
