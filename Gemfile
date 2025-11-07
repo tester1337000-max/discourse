@@ -118,7 +118,7 @@ gem "net-imap", require: false
 gem "net-pop", require: false
 gem "digest", require: false
 
-gem "goldiloader"
+gem "goldiloader", ">= 6.0.0"
 
 group :test do
   gem "capybara", require: false
@@ -141,14 +141,14 @@ group :test, :development do
 
   gem "rspec-rails"
 
-  gem "shoulda-matchers", require: false
+  gem "shoulda-matchers", ">= 7.0.1", require: false
   gem "rspec-html-matchers"
   gem "pry-stack_explorer", require: false
   gem "byebug", require: ENV["RM_INFO"].nil?, platform: :mri
   gem "rubocop-discourse", require: false
   gem "parallel_tests"
 
-  gem "rswag-specs"
+  gem "rswag-specs", ">= 2.17.0"
 
   gem "annotaterb"
 
