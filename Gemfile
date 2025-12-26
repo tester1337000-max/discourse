@@ -252,7 +252,7 @@ gem "maxminddb"
 gem "rails_failover", require: false
 
 gem "faraday"
-gem "faraday-retry"
+gem "faraday-retry", ">= 2.4.0"
 
 # workaround for faraday-net_http, see
 # https://github.com/ruby/net-imap/issues/16#issuecomment-803086765
